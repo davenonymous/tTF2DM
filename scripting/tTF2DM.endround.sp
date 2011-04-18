@@ -44,6 +44,8 @@ public OnPluginStart()
 	HookEvent("teamplay_round_start", OnRoundStart);
 	HookEvent("teamplay_restart_round", OnRoundStart);
 	HookEvent("player_spawn", OnPlayerSpawn);
+
+	AutoExecConfig(true, "plugin.tTF2DM.roundend");
 }
 
 public OnConfigsExecuted() {

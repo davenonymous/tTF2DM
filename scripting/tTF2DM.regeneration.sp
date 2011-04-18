@@ -75,7 +75,7 @@ public OnPluginStart() {
 	HookEvent("teamplay_restart_round", Event_round_start);
 	HookEvent("post_inventory_application", CallCheckInventory, EventHookMode_Post);
 
-	AutoExecConfig(true, "plugin.tTF2DM.regen");
+	AutoExecConfig(true, "plugin.tTF2DM.regeneration");
 }
 
 public Action:CallCheckInventory(Handle:event, const String:name[], bool:dontBroadcast)

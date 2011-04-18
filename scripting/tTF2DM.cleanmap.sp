@@ -29,6 +29,8 @@ public OnPluginStart()
 
 	HookEvent("teamplay_round_start", OnRoundStart);
 	HookEvent("teamplay_restart_round", OnRoundStart);
+
+	AutoExecConfig(true, "plugin.tTF2DM.cleanmap");
 }
 
 public OnConfigsExecuted() {

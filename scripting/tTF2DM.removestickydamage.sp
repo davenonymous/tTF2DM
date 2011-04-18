@@ -28,6 +28,8 @@ public OnPluginStart() {
 			SDKHook(i, SDKHook_OnTakeDamage, OnTakeDamage);
 		}
 	}
+
+	AutoExecConfig(true, "plugin.tTF2DM.removestickydamage");
 }
 
 public OnConfigsExecuted() {

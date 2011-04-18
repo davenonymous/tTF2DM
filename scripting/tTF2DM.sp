@@ -106,7 +106,7 @@ public LoadSpawns() {
 	GetCurrentMap(map, sizeof(map));
 
 	decl String:path[256];
-	BuildPath(Path_SM, path, sizeof(path), "configs/tf2dm/%s.cfg", map);
+	BuildPath(Path_SM, path, sizeof(path), "configs/tTF2DM/%s.cfg", map);
 
 	if(FileExists(path)) {
 		g_bSpawnMap = true;
